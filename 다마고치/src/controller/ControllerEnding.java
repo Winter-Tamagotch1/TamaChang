@@ -4,7 +4,6 @@ import screens.ScreenEnding;
 import screens.ScreenMainPet;
 
 public class ControllerEnding {
-	private ScreenSwitcher switcher;
 	private ScreenEnding screenED;
 	
 	public ControllerEnding(ScreenEnding screenED) {
@@ -12,8 +11,7 @@ public class ControllerEnding {
 		
 		//캐릭터 사진 넣기
 		
-		this.screenED.getBtnNextPet().addActionListener(e -> {			
-			switcher.switchScreen("select");
-		});
 		}
 }
+
+//졸업한 캐릭터 memory에 이미지 설정

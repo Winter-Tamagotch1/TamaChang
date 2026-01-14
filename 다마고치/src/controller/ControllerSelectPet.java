@@ -6,7 +6,7 @@ import diarytamagotchiswing.MainFrame;
 import screens.ScreenSelectPet;
 
 public class ControllerSelectPet {
-	//캐릭터 생성 여기서 할건지 결정
+	private ScreenSwitcher switcher;
 	private Model model;
 	private ScreenSelectPet screanSP;
 	private javax.swing.Icon Img;
@@ -33,9 +33,9 @@ public class ControllerSelectPet {
 		});
 		
 		this.screanSP.getBtnSelect().addActionListener(e -> {
-			//화면전환 구현 후 화면전환 만들기
+			//화면전환
 			//이름받아서 DB에 캐릭터 추가
-			//메인 캐릭터 이미지 큰화면에서 get해와서 설정하기
+			//메인 캐릭터 이미지 큰화면에서 get해와서 DB에 저장
 		});
 	}
 }
