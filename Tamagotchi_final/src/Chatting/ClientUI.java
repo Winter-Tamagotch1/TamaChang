@@ -11,8 +11,6 @@ import java.util.Scanner;
 import screens.ScreenPlaza;
 
 public class ClientUI {
-//    private static final String SERVER_IP = "192.168.23.51";
-//    private static final int SERVER_PORT = 5000;
 
     private static String SERVER_IP = "192.168.45.61";  //ipconfig로 확인할 것.
     private static final int SERVER_PORT = 50023;
