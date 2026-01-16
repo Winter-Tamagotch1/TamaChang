@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 //DB에 연결만
 public class DBConnector {
-	private static final String URL ="jdbc:mysql://...:3306/tamagochi";
+	private static final String URL ="jdbc:mysql://ip address:port/tamagochi";
 	private static final String USER = "...";
 	private static final String PASS = "...";
 
