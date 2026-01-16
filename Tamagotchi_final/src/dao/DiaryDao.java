@@ -49,7 +49,6 @@ public class DiaryDao {
                 throw new SQLException("Insert failed: affected rows = " + updated);
             }
 
-            // 최소 수정 포인트: generatedKeys가 비어있을 수 있으니 체크 + fallback
             try (ResultSet rs = ps.getGeneratedKeys()) {
                 if (rs != null && rs.next()) {
                     Diary d = new Diary();
